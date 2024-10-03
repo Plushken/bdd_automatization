@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cucumber Tests">
+    <test name="Cucumber Test">
+        <classes>
+            <class name="runners.TestNGRunner"/>
+            <class name="stepdefinitions.LoginStepDefinitions"/>
+        </classes>
+    </test>
+</suite>
